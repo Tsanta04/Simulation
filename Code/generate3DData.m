@@ -55,4 +55,4 @@ function generate3DData(filename, max_x, max_y, max_z, step_x, step_y, step_z, m
 
     fprintf('File generated: %s\n', filename);
 end
-%generate3DData('../Data/nappes3D.csv', 4, 2, 1, 0.5, 0.5, 0.2, 4200);
+%generate3DData('../Data/nappes3D.csv', 4, 2, 1, 0.5, 0.5, 0.2, 1000);

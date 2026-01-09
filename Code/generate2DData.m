@@ -23,11 +23,11 @@ function generate2DData(filename, n, step_x, step_y, max_value)
         x = i;
 
         % Random maximum for Y
-        max_y = rand() * 2;  % equivalent to random.uniform(0, 2)
+        % max_y = rand() * 2;  % equivalent to random.uniform(0, 2)
 
         % Loop over Y
         j = 0;
-        while j <= max_y
+        while j <= n
             y = j;
 
             % Generate random resistivity value
@@ -48,4 +48,4 @@ function generate2DData(filename, n, step_x, step_y, max_value)
     fprintf('File generated: %s\n', filename);
 end
 
-% generate2DData('../Data/nappes2D.csv', 5, 0.5, 0.2, 4200);
+% generate2DData('../Data/nappes2D.csv', 5, 0.5, 0.2, 1000);
