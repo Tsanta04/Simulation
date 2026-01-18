@@ -1,9 +1,6 @@
-
-This will create and display a new figure with the 2D resistivity map.
-
 # Image Processing Model (Python)
 
-This section describes the Python notebook located in `Model/Untitled.ipynb`, designed to analyze the resistivity plots.
+This section analyze the generated plots using an image processing model to detect groundwater and rank the most promising areas for exploration.
 
 ## Required Configuration
 
